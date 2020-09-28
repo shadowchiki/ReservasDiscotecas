@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.example.reservasdiscotecas.view.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/social_fragment"
+        android:name="com.example.reservasdiscotecas.view.SocialFragment"
+        android:label="fragment_social"
+        tools:layout="@layout/fragment_social" />
+    <fragment
+        android:id="@+id/calendar_fragment"
+        android:name="com.example.reservasdiscotecas.view.CalendarFragment"
+        android:label="CalendarFragment" />
+    <fragment
+        android:id="@+id/reserves_fragment"
+        android:name="com.example.reservasdiscotecas.view.ReservesFragment"
+        android:label="ReservesFragment" />
+    <fragment
+        android:id="@+id/contact_fragment"
+        android:name="com.example.reservasdiscotecas.view.ContactFragment"
+        android:label="ContactFragment" />
+</navigation>
